@@ -1,16 +1,18 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import hotels.LandingPageHotels;
+import hotels.LoginScreenHotels;
 
 public class TestInvalidLogin {
 
     @Test
     public void verifyInvalidLogin() {
-        LandingPage landingPage = new LandingPage();
-        LoginScreen loginScreen = new LoginScreen();
+        LandingPageHotels landingPage = new LandingPageHotels();
+        LoginScreenHotels loginScreen = new LoginScreenHotels();
 
         //Landing screen actions
         landingPage.tapOnYesButton();
-        landingPage.tapOnMainMenuButton();
+//        landingPage.tapOnMainMenuButton();
         landingPage.tapOnSignInButton();
         //Login Screen actions
         loginScreen.enterEmailAddress("mohammad@technosoftacademy.io");

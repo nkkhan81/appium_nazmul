@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/com.appium.dump.iml" filepath="$PROJECT_DIR$/com.appium.dump.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appium_technosoft.iml" filepath="$PROJECT_DIR$/appium_technosoft.iml" />
     </modules>
   </component>
 </project>
